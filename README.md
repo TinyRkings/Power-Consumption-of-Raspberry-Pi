@@ -2,6 +2,7 @@
 Online Power measurement of Raspberry Pi 3
 
 Enable videocapture in Raspberry Pi 3 Model B:
+
 sudo modprobe bcm2835-v4l2
 
 Server:
