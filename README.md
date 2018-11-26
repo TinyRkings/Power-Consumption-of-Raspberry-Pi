@@ -7,7 +7,7 @@ Online Power measurement of Raspberry Pi 3
 
 (2) install opencv3:
 
-cmake -D CMAKE_BUILD_TYPE=Release/Debug -D CMAKE_INSTALL_PREFIX=/home/pi/Documents/software/opencv-4.0.0 -D OPENCV_EXTRA_MODULES_PATH=/home/pi/Documents/software/opencv-4.0.0/modules ..
+cmake -D CMAKE_BUILD_TYPE=Release/Debug -D CMAKE_INSTALL_PREFIX=/home/pi/Documents/software/opencv-4.0.0 -D ..
 
 
 cmake -D CMAKE_BUILD_TYPE=Release/Debug -D CMAKE_INSTALL_PREFIX=/home/lou.125/software/opencv-3.4.1 -D OPENCV_EXTRA_MODULES_PATH=/home/lou.125/software/opencv-3.4.1/modules ..
