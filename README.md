@@ -16,7 +16,11 @@ raspberry install opencv3
 
 (3) Enable videocapture in Raspberry Pi 3 Model B:
 
-sudo modprobe bcm2835-v4l2
+a.sudo apt-get update  sudo apt-get upgrade
+
+b. sudo raspi-config
+
+c. sudo modprobe bcm2835-v4l2
 
 
 # Run Command:
