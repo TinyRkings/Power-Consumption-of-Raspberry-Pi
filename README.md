@@ -14,6 +14,11 @@ cmake -D CMAKE_BUILD_TYPE=Release/Debug -D CMAKE_INSTALL_PREFIX=/home/lou.125/so
 
 raspberry install opencv3
 
+check:
+
+pkg-config --cflags opencv
+pkg-config --libs opencv
+
 (3) Enable videocapture in Raspberry Pi 3 Model B:
 
 a.sudo apt-get update  sudo apt-get upgrade
